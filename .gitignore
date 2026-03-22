@@ -1,0 +1,6 @@
+ReesDefects/.lake/
+ReesDefects/build/
+*.olean
+*.ilean
+*.trace
+.DS_Store
