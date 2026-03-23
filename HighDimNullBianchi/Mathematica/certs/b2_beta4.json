@@ -1,0 +1,19 @@
+{
+	"version":2,
+	"axiomName":"b2_beta4",
+	"targetKind":"difference_zero",
+	"tensorKind":"tensor1",
+	"normalForm":[],
+	"rewriteSteps":[
+		"expand_connection_rewrite_4",
+		"expand_bianchi_second_seed",
+		"normalize_tau_sigma_alpha_blocks",
+		"collect_ricci_coefficient_terms",
+		"NORMAL_FORM_VANISHES: nabla4 beta - b2RHS === 0"
+	],
+	"verifiedBy":"Prop36BianchiExpandedChecks.nb#B2",
+	"normalFormVanishes":true,
+	"verificationStatus":"component-tests-verified",
+	"differenceDescription":"b2_beta4_difference",
+	"normalFormSource":"direct-component-tests"
+}

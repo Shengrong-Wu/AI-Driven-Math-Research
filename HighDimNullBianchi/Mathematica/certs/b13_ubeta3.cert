@@ -1,0 +1,11 @@
+CERT v1
+AXIOM: oracle_b13_ubeta3
+REWRITE_CHAIN:
+  expand_connection_rewrite_3
+  expand_bianchi_second_seed
+  normalize_tau_sigma_alpha_blocks
+  collect_ricci_coefficient_terms
+  NORMAL_FORM_VANISHES: nabla3 betaBar - b13RHS === 0
+NORMAL_FORM_VANISHES: false
+VERIFIED_BY: UNVERIFIED_STUB
+VERIFIED_AT: Experiment4_Certificates.wl, section oracle_b13_ubeta3

@@ -1,0 +1,9 @@
+CERT v1
+AXIOM: oracle_bianchi_second
+REWRITE_CHAIN:
+  expand_bianchi_second_seed
+  collect_ricci_coefficient_terms
+  NORMAL_FORM_VANISHES: cyclic sum === 0
+NORMAL_FORM_VANISHES: false
+VERIFIED_BY: UNVERIFIED_STUB
+VERIFIED_AT: Experiment4_Certificates.wl, section oracle_bianchi_second

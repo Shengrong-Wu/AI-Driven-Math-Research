@@ -1,0 +1,18 @@
+{
+	"version":2,
+	"axiomName":"bianchi_divfree",
+	"targetKind":"difference_zero",
+	"tensorKind":"tensor4",
+	"normalForm":[],
+	"rewriteSteps":[
+		"expand_bianchi_second_seed",
+		"normalize_tau_sigma_alpha_blocks",
+		"ContractMetric + ToCanonical",
+		"NORMAL_FORM_VANISHES: divfree seed === 0"
+	],
+	"verifiedBy":"HigherDimCombinedChecks.nb#Bianchi",
+	"normalFormVanishes":true,
+	"verificationStatus":"component-tests-verified",
+	"differenceDescription":"bianchi_divfree_difference",
+	"normalFormSource":"direct-component-tests"
+}

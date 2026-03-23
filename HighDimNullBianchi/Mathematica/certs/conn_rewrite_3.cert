@@ -1,0 +1,10 @@
+CERT v1
+AXIOM: oracle_conn_rewrite_3
+REWRITE_CHAIN:
+  expand_connection_rewrite_4
+  collect_ricci_coefficient_terms
+  collect_ricci_coefficient_terms
+  NORMAL_FORM_VANISHES: LHS - RHS === 0
+NORMAL_FORM_VANISHES: false
+VERIFIED_BY: UNVERIFIED_STUB
+VERIFIED_AT: Experiment4_Certificates.wl, section oracle_conn_rewrite_3

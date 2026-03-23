@@ -1,0 +1,18 @@
+{
+	"version":2,
+	"axiomName":"conn_rewrite_4",
+	"targetKind":"difference_zero",
+	"tensorKind":"tensor4",
+	"normalForm":[],
+	"rewriteSteps":[
+		"expand_connection_rewrite_4",
+		"collect_ricci_coefficient_terms",
+		"collect_ricci_coefficient_terms",
+		"NORMAL_FORM_VANISHES: LHS - RHS === 0"
+	],
+	"verifiedBy":"HigherDimNullStructureChecks.nb#B.1",
+	"normalFormVanishes":true,
+	"verificationStatus":"component-tests-verified",
+	"differenceDescription":"conn_rewrite_4_difference",
+	"normalFormSource":"direct-component-tests"
+}

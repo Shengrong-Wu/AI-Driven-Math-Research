@@ -1,0 +1,17 @@
+{
+	"version":2,
+	"axiomName":"bianchi_second",
+	"targetKind":"difference_zero",
+	"tensorKind":"tensor4",
+	"normalForm":[],
+	"rewriteSteps":[
+		"expand_bianchi_second_seed",
+		"collect_ricci_coefficient_terms",
+		"NORMAL_FORM_VANISHES: cyclic sum === 0"
+	],
+	"verifiedBy":"HigherDimCombinedChecks.nb#Bianchi",
+	"normalFormVanishes":false,
+	"verificationStatus":"stub",
+	"differenceDescription":"bianchi_second_difference",
+	"normalFormSource":"none"
+}

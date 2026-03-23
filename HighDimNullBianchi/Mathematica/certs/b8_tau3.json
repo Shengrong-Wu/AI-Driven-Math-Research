@@ -1,0 +1,20 @@
+{
+	"version":2,
+	"axiomName":"b8_tau3",
+	"targetKind":"difference_zero",
+	"tensorKind":"tensor2",
+	"normalForm":[],
+	"rewriteSteps":[
+		"expand_connection_rewrite_3",
+		"expand_bianchi_second_seed",
+		"normalize_tau_sigma_alpha_blocks",
+		"normalize_tau_sigma_alpha_blocks",
+		"collect_ricci_coefficient_terms",
+		"NORMAL_FORM_VANISHES: nabla3 tau - b8RHS === 0"
+	],
+	"verifiedBy":"Prop36BianchiExpandedChecks.nb#B8",
+	"normalFormVanishes":true,
+	"verificationStatus":"component-tests-verified",
+	"differenceDescription":"b8_tau3_difference",
+	"normalFormSource":"direct-component-tests"
+}
