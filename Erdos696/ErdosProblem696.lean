@@ -1,0 +1,1 @@
+import ErdosProblem696.Basic

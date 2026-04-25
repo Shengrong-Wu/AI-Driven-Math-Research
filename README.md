@@ -19,6 +19,9 @@ verify mathematical results via [Lean 4](https://lean-lang.org).
   - **Status:** All 14 equation statements kernel-checked; 1 equation (B9) fully kernel-proved; 18/19 certificates verified with xAct.
   - **Build & verify:** See [HighDimNullBianchi/README.md](HighDimNullBianchi/README.md)
 
+- **[Erdos696](Erdos696/)** - solve open problem + logical formalization
+  Used self-developed agentic workflow, and solved Erdos problem 696. Then formalize the proof logic, with common propositions as axioms input. See [Erdos696/README.md](Erdos696/README.md). Blog post see [here](https://shengrong-wu.github.io/posts/erdos696/).
+
 ## Methodology
 
 This project uses large language models (thinking model, CLI code agents) to:
